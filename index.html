@@ -140,7 +140,7 @@
             // Add a button to switch between front and rear cameras
 
 
-            await webcam.setup({ facingMode: "user" }); // request access to the webcam
+            await webcam.setup({ facingMode: "environment" }); // request access to the webcam
             await webcam.play();
             window.requestAnimationFrame(loop);
 
